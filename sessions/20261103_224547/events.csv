@@ -1,0 +1,3 @@
+timestamp_ns,type,payload
+1578454601408692,INIT,"gps x=3.5115 y=47.0033 r=6.8000 compass=true"
+1578709025028707,RESET,"gps x=11.9448 y=33.2969 sigma=5.0000 error_before=32.3257"

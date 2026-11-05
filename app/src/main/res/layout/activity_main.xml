@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#101418">
+
+    <TextView
+        android:id="@+id/status"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:fontFamily="monospace"
+        android:textColor="#ECEFF1"
+        android:textSize="13sp" />
+
+    <org.spdr.companion.MapCanvasView
+        android:id="@+id/map"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <LinearLayout style="@style/ButtonRow">
+        <Button android:id="@+id/btnStart" style="@style/BigButton" android:text="▶ Start" />
+        <Button android:id="@+id/btnGps" style="@style/BigButton" android:text="GPS fix" />
+        <Button android:id="@+id/btnOsmAnd" style="@style/BigButton" android:text="OsmAnd" />
+    </LinearLayout>
+
+    <LinearLayout style="@style/ButtonRow">
+        <Button android:id="@+id/btnBack" style="@style/BigButton" android:text="−5 m" />
+        <Button android:id="@+id/btnFwd" style="@style/BigButton" android:text="+5 m" />
+        <Button android:id="@+id/btnUturn" style="@style/BigButton" android:text="U-turn" />
+        <Button android:id="@+id/btnReject" style="@style/BigButton" android:text="Not here" />
+    </LinearLayout>
+
+    <LinearLayout style="@style/ButtonRow">
+        <Button android:id="@+id/btnGraph" style="@style/BigButton" android:text="Graph…" />
+        <Button android:id="@+id/btnCalib" style="@style/BigButton" android:text="Calibrate" />
+        <Button android:id="@+id/btnSettings" style="@style/BigButton" android:text="Settings" />
+        <Button android:id="@+id/btnMark" style="@style/BigButton" android:text="Mark" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,6 @@
+timestamp_ns,type,payload
+1580217355748792,RESET,"gps x=-42.8108 y=10.5146 sigma=5.0000 error_before=38.0151"
+1580238342239332,RESET,"gps x=-42.8108 y=10.5146 sigma=5.0000 error_before=134.8983"
+1580248254236179,RESET,"gps x=-54.2997 y=-7.8223 sigma=5.0000 error_before=23.2162"
+1580263228658026,RESET,"map x=-65.3996 y=-6.2104 sigma=3.0000 error_before=20.9319"
+1580279192559950,RESET,"map x=-83.9332 y=15.3300 sigma=3.0000 error_before=36.7709"
